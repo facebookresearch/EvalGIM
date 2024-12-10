@@ -283,9 +283,9 @@ ruff format .
 **Support**
 If your usecase is not included here, please feel free to open an issue or reach out to Melissa Hall (melissahall@meta.com) for additional support. 
 
-### License Info
+# License Info
 The majority of EvalGIM is licensed under CC-BY-NC 4.0, however portions of the project are available under separate license terms: [FID](https://github.com/Lightning-AI/torchmetrics/blob/master/src/torchmetrics/image/fid.py#L1-L13), [CLIPScore](https://github.com/Lightning-AI/torchmetrics/blob/master/src/torchmetrics/multimodal/clip_score.py#L1-L13), [DSG](https://github.com/j-min/DSG/blob/main/LICENSE), and [VQAScore](https://github.com/linzhiqiu/t2v_metrics/blob/main/LICENSE) are licensed Apache 2.0; [Precision/Recall/Density/Coverage](https://github.com/clovaai/generative-evaluation-prdc/blob/master/LICENSE.md) is licensed MIT.
 
+# Citation
 
-
-
+(Forthcoming)
