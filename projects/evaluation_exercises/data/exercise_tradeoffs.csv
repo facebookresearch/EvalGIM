@@ -1,0 +1,13 @@
+,model_id,dataset,cfg_scale,precision,recall,coverage,density,vqascore
+0,Iter. 600k,cc12m_recaptioned_dataset,7.5,0.729,0.398,0.784,1.307,0.807
+1,Iter. 550k,cc12m_recaptioned_dataset,7.5,0.733,0.394,0.791,1.342,0.806
+2,Iter. 450k,cc12m_recaptioned_dataset,7.5,0.741,0.393,0.789,1.361,0.802
+3,Iter. 350k,cc12m_recaptioned_dataset,7.5,0.737,0.397,0.783,1.366,0.790
+4,Iter. 250k,cc12m_recaptioned_dataset,7.5,0.744,0.374,0.784,1.428,0.775
+5,Iter. 150k,cc12m_recaptioned_dataset,7.5,0.748,0.355,0.766,1.380,0.742
+7,Iter. 600k,coco_txt_dataset,7.5,0.606,0.242,0.470,0.832,0.762
+8,Iter. 550k,coco_txt_dataset,7.5,0.620,0.239,0.488,0.872,0.768
+9,Iter. 450k,coco_txt_dataset,7.5,0.627,0.226,0.490,0.894,0.767
+10,Iter. 350k,coco_txt_dataset,7.5,0.640,0.227,0.503,0.951,0.752
+11,Iter. 250k,coco_txt_dataset,7.5,0.655,0.218,0.502,1.015,0.730
+12,Iter. 150k,coco_txt_dataset,7.5,0.634,0.207,0.476,0.928,0.684

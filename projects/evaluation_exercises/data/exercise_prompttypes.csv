@@ -1,0 +1,26 @@
+,model_id,dataset,cfg_scale,fid_torchmetrics,precision,recall,coverage,density,clipscore
+1,CC12M Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.ImageNetValidationText15K,7.5,53.563,0.418,0.227,0.389,0.418,18.087
+2,CC12M Original + Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.ImageNetValidationText15K,7.5,21.281,0.787,0.198,0.698,1.184,21.864
+3,CC12M Original + PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.ImageNetValidationText15K,7.5,22.922,0.759,0.231,0.662,1.123,20.623
+4,CC12M PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.ImageNetValidationText15K,7.5,56.563,0.411,0.282,0.439,0.436,17.840
+5,CC12M Original,data.datasets.real_datasets_training_filtering.ImageNetValidationText15K,7.5,26.484,0.702,0.182,0.655,0.912,22.609
+6,CC12M Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.GeoDE15K,7.5,110.313,0.135,0.071,0.120,0.112,17.900
+7,CC12M Original + PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.GeoDE15K,7.5,39.250,0.540,0.134,0.462,0.818,20.863
+8,CC12M Original + Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.GeoDE15K,7.5,40.844,0.571,0.124,0.459,0.930,22.189
+9,CC12M Original,data.datasets.real_datasets_training_filtering.GeoDE15K,7.5,39.750,0.530,0.109,0.450,0.765,22.976
+10,CC12M PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.GeoDE15K,7.5,63.125,0.256,0.099,0.291,0.289,18.279
+11,CC12M Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.COCO15K,7.5,28.422,0.496,0.362,0.605,0.595,26.197
+12,CC12M Original + Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.COCO15K,7.5,19.578,0.643,0.359,0.821,0.944,27.823
+13,CC12M Original + PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.COCO15K,7.5,18.344,0.630,0.386,0.824,0.904,27.373
+14,CC12M Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.CC12MValidation15K,7.5,45.438,0.624,0.441,0.536,0.915,19.959
+15,CC12M PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.COCO15K,7.5,17.906,0.611,0.393,0.821,0.865,27.374
+16,CC12M Original + Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.CC12MValidation15K,7.5,14.625,0.704,0.460,0.812,1.227,24.345
+17,CC12M Original,data.datasets.real_datasets_training_filtering.COCO15K,7.5,20.344,0.636,0.335,0.797,0.913,27.189
+18,CC12M Original + PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.CC12MValidation15K,7.5,15.070,0.703,0.451,0.814,1.204,23.442
+19,CC12M PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.CC12MValidation15K,7.5,25.797,0.637,0.464,0.711,1.032,21.160
+20,CC12M Original,data.datasets.real_datasets_training_filtering.CC12MValidation15K,7.5,14.727,0.707,0.456,0.816,1.191,24.308
+21,CC12M Original + Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.CC12MValidationRecaptionedFlo2Detail15K,7.5,12.391,0.720,0.546,0.838,1.112,25.879
+22,CC12M Flo2Med Recaptioned,data.datasets.real_datasets_training_filtering.CC12MValidationRecaptionedFlo2Detail15K,7.5,12.711,0.727,0.533,0.843,1.166,25.738
+23,CC12M Original + PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.CC12MValidationRecaptionedFlo2Detail15K,7.5,14.141,0.690,0.484,0.808,1.087,25.449
+24,CC12M PaliCOCO Recaptioned,data.datasets.real_datasets_training_filtering.CC12MValidationRecaptionedFlo2Detail15K,7.5,15.750,0.637,0.483,0.757,0.935,24.611
+25,CC12M Original,data.datasets.real_datasets_training_filtering.CC12MValidationRecaptionedFlo2Detail15K,7.5,15.156,0.678,0.480,0.785,1.049,25.760

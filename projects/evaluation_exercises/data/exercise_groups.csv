@@ -1,0 +1,9 @@
+,model_id,precision,coverage,clipscore,coverage_Africa,clipscore_torchmetrics,clipscore_Africa,clipscore_Americas,clipscore_EastAsia,clipscore_Europe,clipscore_NA,clipscore_None,clipscore_SouthEastAsia,clipscore_WestAsia,coverage_Americas,coverage_EastAsia,coverage_Europe,coverage_NA,coverage_None,coverage_SouthEastAsia,coverage_WestAsia,precision_Africa,precision_Americas,precision_EastAsia,precision_Europe,precision_NA,precision_None,precision_SouthEastAsia,precision_WestAsia
+0.000,LDM 3,,,,0.245,,28.427,22.697,25.947,24.461,,,25.857,25.956,0.338,0.324,0.371,,,0.381,0.266,0.511,0.527,0.538,0.614,,,0.633,0.442
+1.000,LDM 1.5,,,,0.308,,28.450,23.457,25.917,24.201,,,26.415,26.104,0.326,0.339,0.349,,,0.393,0.265,0.403,0.426,0.482,0.489,,,0.495,0.374
+2.000,LDM 2.1,,,,0.240,,28.778,23.717,26.205,25.381,,,26.462,26.358,0.290,0.215,0.262,,,0.254,0.179,0.344,0.378,0.313,0.358,,,0.341,0.275
+3.000,LDM XL,,,,0.253,,29.505,24.109,26.678,25.061,,,27.800,27.475,0.288,0.251,0.313,,,0.314,0.223,0.387,0.380,0.360,0.445,,,0.468,0.342
+4.000,LDM 3,0.518,0.282,25.740,,,,,,,,,,,,,,,,,,,,,,,,,
+5.000,LDM 1.5,0.432,0.280,25.866,,,,,,,,,,,,,,,,,,,,,,,,,
+6.000,LDM 2.1,0.337,0.199,25.474,,,,,,,,,,,,,,,,,,,,,,,,,
+7.000,LDM XL,0.393,0.231,26.555,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,17 @@
+,model_id,dataset,fid_torchmetrics,clipscore,precision,recall,coverage,density,vqascore
+15,LDM XL,cc12m_validation_dataset,16.688,26.953,0.643,0.484,0.748,1.000,0.810
+12,LDM 3,cc12m_validation_dataset,19.109,25.955,0.714,0.410,0.757,1.308,0.805
+14,LDM 2.1,cc12m_validation_dataset,16.484,26.642,0.616,0.494,0.731,0.917,0.781
+13,LDM 1.5,cc12m_validation_dataset,17.172,25.336,0.674,0.490,0.770,1.070,0.747
+11,LDM XL,coco_txt_dataset,16.625,30.060,0.580,0.369,0.563,0.779,0.882
+7,LDM 3,coco_txt_dataset,24.594,29.321,0.649,0.261,0.543,0.995,0.917
+10,LDM 2.1,coco_txt_dataset,15.508,28.934,0.563,0.404,0.548,0.773,0.833
+8,LDM 1.5,coco_txt_dataset,16.391,27.747,0.593,0.402,0.585,0.844,0.774
+3,LDM XL,geode_dataset,46.219,26.772,0.393,0.126,0.231,0.440,0.790
+0,LDM 3,geode_dataset,49.156,25.558,0.518,0.096,0.282,0.722,0.735
+2,LDM 2.1,geode_dataset,48.000,26.151,0.337,0.151,0.199,0.352,0.745
+1,LDM 1.5,geode_dataset,41.219,25.758,0.432,0.160,0.280,0.536,0.714
+9,LDM XL,imagenet_validation_dataset,15.922,24.447,0.710,0.212,0.537,1.139,0.825
+4,LDM 3,imagenet_validation_dataset,21.250,23.586,0.824,0.094,0.486,1.395,0.820
+5,LDM 2.1,imagenet_validation_dataset,14.508,24.135,0.710,0.244,0.511,1.051,0.813
+6,LDM 1.5,imagenet_validation_dataset,18.094,23.651,0.729,0.249,0.545,1.124,0.795

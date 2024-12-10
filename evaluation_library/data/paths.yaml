@@ -1,0 +1,27 @@
+ImageNet1k:
+  ANNOT_VAL: ""
+  IMG_ROOT: ""
+
+CC12M:
+  ANNOT_VAL: ""
+  IMG_ROOT_VAL: ""
+
+COCO:
+  ANNOT_VAL: ""
+  IMG_ROOT_VAL: ""
+
+GeoDE:
+  ANNOT_VAL: ""
+  IMG_ROOT_VAL: ""
+
+TIFA160:
+  ANNOT_VAL: ""
+
+PARTI_PROMPTS: 
+  ANNOT_VAL: ""
+
+DRAWBENCH: 
+  ANNOT_VAL: ""
+
+T2I-COMPBENCH: 
+  ANNOT_VAL: ""

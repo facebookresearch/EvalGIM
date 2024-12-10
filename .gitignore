@@ -1,0 +1,38 @@
+/projects/generated
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.pyd
+*.so
+*.dll
+*.egg-info/
+build/
+dist/
+wheels/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+*.ts
+model_ts*.txt
+*.pt
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+**/__pycache__/
+
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+*.lock
+# editor settings
+.idea
+.vscode
+_darcs

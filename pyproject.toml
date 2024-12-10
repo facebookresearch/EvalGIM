@@ -1,0 +1,70 @@
+[project]
+name = "evaluation_library"
+readme = "README.md"
+authors = [{name = "Fundamental AI Research - Meta"}]
+requires-python = ">=3.10"
+version = "0.0.1"
+
+dependencies = [
+   "torch>=2.2.0",
+   "einops>=0.8.0",
+   "diffusers>=0.30.0",
+   "datasets>=2.19.2",
+   "accelerate>=0.30.1",
+   "timm>=1.0.3",
+   "transformers>=4.41.2",
+   "torchmetrics>=1.4.0.post0",
+   "torcheval>=0.0.7",
+   "yacs>=0.1.8",
+   "submitit>=1.5.1",
+   "protobuf==3.20",
+   "numpy==1.26.4",
+   "joblib",
+   "pyyaml",
+   "webdataset>=0.2.86",
+   "t2v_metrics @ git+https://github.com/pietroastolfi/t2v_metrics.git",
+   "torchdiffeq",
+   "kaleido",
+   "plotly",
+   "paretoset",
+   "seaborn",
+   "submitit",
+   "torch-fidelity",
+   "ipykernel"
+]
+
+
+[tool.setuptools]
+py-modules = ["evaluation_library"]
+[tool.setuptools.packages.find]
+include = ["evaluation_library"]
+exclude = ["projects", "tests", "logs"]
+
+[project.optional-dependencies]
+    dev = [
+        # Format
+        "ruff==0.3.4",
+        "pre-commit>=3.6.1",
+        # Linters
+        "mypy>=0.971",
+        "pylint>=2.13.9",
+    ]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
