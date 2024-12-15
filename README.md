@@ -1,4 +1,4 @@
-<img width="1707" alt="Screenshot 2024-12-04 at 7 26 07 PM" src="https://github.com/user-attachments/assets/9c756af4-4743-4f1a-b858-3229bf9b915b">
+![alt text](https://github.com/facebookresearch/EvalGIM/blob/main/visual.png?raw=true)
 
 # 🦾 EvalGIM: A Library for Evaluating Generative Image Models
 
@@ -287,5 +287,32 @@ If your usecase is not included here, please feel free to open an issue or reach
 The majority of EvalGIM is licensed under CC-BY-NC 4.0, however portions of the project are available under separate license terms: [FID](https://github.com/Lightning-AI/torchmetrics/blob/master/src/torchmetrics/image/fid.py#L1-L13), [CLIPScore](https://github.com/Lightning-AI/torchmetrics/blob/master/src/torchmetrics/multimodal/clip_score.py#L1-L13), [DSG](https://github.com/j-min/DSG/blob/main/LICENSE), and [VQAScore](https://github.com/linzhiqiu/t2v_metrics/blob/main/LICENSE) are licensed Apache 2.0; [Precision/Recall/Density/Coverage](https://github.com/clovaai/generative-evaluation-prdc/blob/master/LICENSE.md) is licensed MIT.
 
 # Citation
+**EvalGIM Library**
 
 (Forthcoming)
+
+**Consistency-diversity-realism Pareto fronts of conditional image generative models**
+```
+@misc{astolfi2024consistencydiversityrealismparetofrontsconditional,
+      title={Consistency-diversity-realism Pareto fronts of conditional image generative models}, 
+      author={Pietro Astolfi and Marlene Careil and Melissa Hall and Oscar Mañas and Matthew Muckley and Jakob Verbeek and Adriana Romero Soriano and Michal Drozdzal},
+      year={2024},
+      eprint={2406.10429},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2406.10429}, 
+}
+```
+
+**DIG In: Evaluating disparities in image generations with indicators for geographic diversity**
+```
+@misc{hall2024diginevaluatingdisparities,
+      title={DIG In: Evaluating Disparities in Image Generations with Indicators for Geographic Diversity}, 
+      author={Melissa Hall and Candace Ross and Adina Williams and Nicolas Carion and Michal Drozdzal and Adriana Romero Soriano},
+      year={2024},
+      eprint={2308.06198},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2308.06198}, 
+}
+```
