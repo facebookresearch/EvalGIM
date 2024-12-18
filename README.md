@@ -289,7 +289,17 @@ The majority of EvalGIM is licensed under CC-BY-NC 4.0, however portions of the 
 # Citation
 **EvalGIM Library**
 
-(Forthcoming)
+```
+@misc{hall2024evalgimlibraryevaluatinggenerative,
+      title={EvalGIM: A Library for Evaluating Generative Image Models}, 
+      author={Melissa Hall and Oscar Mañas and Reyhane Askari and Mark Ibrahim and Candace Ross and Pietro Astolfi and Tariq Berrada Ifriqi and Marton Havasi and Yohann Benchetrit and Karen Ullrich and Carolina Braga and Abhishek Charnalia and Maeve Ryan and Mike Rabbat and Michal Drozdzal and Jakob Verbeek and Adriana Romero Soriano},
+      year={2024},
+      eprint={2412.10604},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.10604}, 
+}
+```
 
 **Consistency-diversity-realism Pareto fronts of conditional image generative models**
 ```
