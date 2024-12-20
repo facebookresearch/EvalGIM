@@ -2,7 +2,7 @@
 
 # 🦾 EvalGIM: A Library for Evaluating Generative Image Models
 
-EvalGIM (pronounced "EvalGym") makes it easier to evaluate text-to-image generative models. In addition, EvalGIM is customizable, allowing the user to define their own metrics, datasets, and visualizations for evaluation. Below, we walk through the Quick Start for the repo, how to replicate Evaluation Exercises presented in our accompanying [paper](), perform more advanced evaluations, and customize the library for your own use cases.
+EvalGIM (pronounced "EvalGym") makes it easier to evaluate text-to-image generative models. In addition, EvalGIM is customizable, allowing the user to define their own metrics, datasets, and visualizations for evaluation. Below, we walk through the Quick Start for the repo, how to replicate Evaluation Exercises presented in our accompanying [paper](https://arxiv.org/abs/2412.10604), perform more advanced evaluations, and customize the library for your own use cases.
 
 Note: This code is made available under a CC-by-NC license, however you may have other legal obligations that govern your use of other content, such as the terms of service for third-party models or licenses governing third-party datasets
 
@@ -12,8 +12,8 @@ First install the library then proceed through the three steps of generating ima
 All commands can be run from the root directory.
 As an even easier onboarding experience, you can skip to third step and generate plots using pre-existing CSVs of metrics data. 
 
-To replicate results in the Evaluation Exercises [paper](), skip ahead to the next [Section]().
-To explore additional settings for generation, evaluation, and visualization, proceed to [Section]() after.
+To replicate results in the Evaluation Exercises [paper](https://arxiv.org/abs/2412.10604), skip ahead to the next Section.
+To explore additional settings for generation, evaluation, and visualization, proceed to Section after.
 
 ### 0. Install library and related packages
 
@@ -78,7 +78,7 @@ This will create a visualization PNG showing the trade-offs in quality, diversit
 
 ## Running Evaluation Exercises
 
-To utilize Evaluation Exercises presented in the [EvalGIM paper](), see the `projects/evaluation_exercises/` folder where there are notebooks with three-step executions for generating images, evaluating outputs, and visualizing results for each Exercise. 
+To utilize Evaluation Exercises presented in the [EvalGIM paper](https://arxiv.org/abs/2412.10604), see the `projects/evaluation_exercises/` folder where there are notebooks with three-step executions for generating images, evaluating outputs, and visualizing results for each Exercise. 
 For these Exercises, you can leverage the HuggingFace `diffusers` library to more easily select models for analysis.
 * Tradeoffs Evaluation Exercise: `./projects/evaluation_exercises/tradeoffs/evaluation_exercise.ipynb`
 * Groups Evaluation Exercise: `./projects/evaluation_exercises/groups/evaluation_exercise.ipynb`
